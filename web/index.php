@@ -19,7 +19,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 
 $app->get('/', function() use($app) {
   $app['monolog']->addDebug('logging output.');
-  return var_export($_SERVER, true);
+  return var_export($_SERVER, true)."Rafal";
 });
 
 $app->run();
