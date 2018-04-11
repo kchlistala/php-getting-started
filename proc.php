@@ -9,12 +9,12 @@ class Test
     public function doLoop()
     {
 	while (true) {
-	    echo "loop2\n";
+	    echo "loop3\n";
 	    sleep(30);
-            echo "xxx2\n";
+            echo "xxx3\n";
             if ($this->exit) {
                 file_get_contents("http://ovh.net/files/1Gb.dat");
-                echo "bye2\n";
+                echo "bye3\n";
                 exit;
             }
 	}
