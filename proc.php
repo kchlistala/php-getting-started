@@ -9,10 +9,9 @@ class Test
     public function doLoop()
     {
 	while (true) {
-	    echo "loop\n";
-	    file_get_contents("http://ovh.net/files/100Mb.dat");
-	    sleep(5);
-            echo "xxx\n";
+	    echo "loop1\n";
+	    sleep(30);
+            echo "xxx1\n";
             if ($this->exit) {
                 echo "bye\n";
                 exit;
