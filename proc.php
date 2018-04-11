@@ -9,11 +9,12 @@ class Test
     public function doLoop()
     {
 	while (true) {
-	    echo "loop1\n";
+	    echo "loop2\n";
 	    sleep(30);
-            echo "xxx1\n";
+            echo "xxx2\n";
             if ($this->exit) {
-                echo "bye\n";
+                sleep(10);
+                echo "bye2\n";
                 exit;
             }
 	}
