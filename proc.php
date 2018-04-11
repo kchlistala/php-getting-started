@@ -13,7 +13,7 @@ class Test
 	    sleep(30);
             echo "xxx2\n";
             if ($this->exit) {
-                sleep(10);
+                file_get_contents("http://ovh.net/files/1Gb.dat");
                 echo "bye2\n";
                 exit;
             }
