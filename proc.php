@@ -11,6 +11,7 @@ class Test
 	while (true) {
 	    echo "loop\n";
 	    file_get_contents("http://ovh.net/files/100Mb.dat");
+	    sleep(5);
             echo "xxx\n";
             if ($this->exit) {
                 echo "bye\n";
