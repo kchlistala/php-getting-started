@@ -10,7 +10,7 @@ class Test
     {
 	while (true) {
 	    echo "loop\n";
-	    file_get_contents("http://ovh.net/files/1Gb.dat");
+	    file_get_contents("http://ovh.net/files/100Mb.dat");
             echo "xxx\n";
             if ($this->exit) {
                 echo "bye\n";
